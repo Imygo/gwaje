@@ -1,6 +1,9 @@
-function openRegister(){
-    const options='width=700, height=600, top=50, left=50, scrollbars=yes';
+const popup='width=450, height=680, scrollbars=yes';
 
-    window.open('https://www.youtube.com/','_blank',options);
+function openRegister(){
+    window.open('https://www.youtube.com/watch?v=L8XbI9aJOXk','_blank',popup);
 }
 
+function openPopup(){
+    window.open('register.html','_blank',popup);
+}
